@@ -54,6 +54,29 @@ body {
   }
 }
 
+.login{
+  .heloo{
+    text-align: right;
+    margin-right: 55px;
+    i{
+      color: $mainColor;
+    }
+  }
+}
+
+.account-drop-down{
+  .btn{
+    border: 2px solid $mainColor;
+    i{
+      color: $mainColor !important;
+    }
+    &:focus{
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+}
+
 // start top header
 .top-header {
   padding: 10px;
@@ -931,6 +954,348 @@ footer {
 }
 
 
+// ======================================
+// start anouther pages
+.my-profile {
+  form {
+    margin-top: 0 !important;
+  }
+  h5 {
+    text-align: right;
+    margin-top: 60px;
+    color: $mainColor;
+    font-weight: bold;
+  }
+}
+
+.add-ads-add {
+  margin-bottom: 80px;
+  form {
+    text-align: right;
+    margin-top: 60px;
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      &::placeholder {
+        font-size: 13px;
+      }
+    }
+    select {
+      background-color: transparent;
+      padding: 5px !important;
+      color: #444;
+      font-size: 14px;
+    }
+    input[type="file"] {
+      border: 0;
+      margin-top: 0;
+    }
+    .add-pic {
+      color: $mainColor;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    button[type="submit"] {
+      border: 1px solid $mainColor;
+      background-color: $mainColor;
+      color: #fff;
+      padding: 8px;
+      border-radius: 5px;
+    }
+  }
+}
+
+// start my-ads
+.my-ads {
+  text-align: right;
+  margin-bottom: 150px;
+  .card {
+    border: 0;
+    margin-top: 50px !important;
+    .card-body {
+      background-color: #f7f6fa;
+      height: 100%;
+      padding: 0 !important;
+      position: relative;
+      h5 {
+        font-size: 18px;
+        color: #44474b;
+        padding: 20px;
+      }
+      span {
+        margin-left: 20px;
+        font-size: 13px;
+        color: $mainColor;
+        padding: 20px;
+        i {
+          font-size: 12px;
+          margin-left: 10px;
+          color: $mainColor;
+        }
+      }
+      .controls {
+        background-color: #efebf9;
+        height: 60px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        line-height: 60px;
+        padding-right: 20px;
+        .button-controls {
+          background-color: $mainColor;
+          border: 1px solid $mainColor;
+          color: #fff;
+        }
+        .price {
+          position: absolute;
+          left: 3%;
+          top: 0%;
+          line-height: 60px;
+          font-size: 16px;
+          color: $mainColor;
+        }
+      }
+    }
+  }
+}
+
+// start edit ads
+.edit-ads {
+  text-align: right;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  form {
+    input,
+    select {
+      height: calc(2.5em + 0.75rem + 2px);
+    }
+    label {
+      color: $mainColor;
+      font-weight: bold;
+    }
+    select {
+      font-size: 14px;
+    }
+    input {
+      font-size: 14px;
+    }
+    .file-upload {
+      label {
+        margin-bottom: 0 !important;
+      }
+    }
+    .img-from-file {
+      img {
+        width: 20%;
+      }
+    }
+    button {
+      color: #fff;
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      padding: 10px;
+    }
+  }
+}
+
+// start my-inbox
+.my-inbox {
+  text-align: right;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  .card {
+    margin-top: 20px;
+    .card-header {
+      background-color: $mainColor !important;
+      color: #fff;
+      font-size: 18px;
+    }
+    .card-body {
+      .card-title,
+      .card-text {
+        font-size: 15px;
+        i {
+          margin-left: 5px;
+          color: $mainColor;
+        }
+      }
+      .btn-danger {
+        font-size: 13px;
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+// start blacklist
+.blacklist {
+  text-align: right;
+  margin-top: 90px;
+  margin-bottom: 180px;
+  h5 {
+    color: $mainColor;
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+  form {
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+    button {
+      margin-top: 15px;
+      width: 120px;
+      background-color: $mainColor;
+      border: 1px solid $mainColor;
+      color: #fff;
+      padding: 10px;
+    }
+  }
+}
+
+// start who-us
+.who-us {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: right;
+  .who-header {
+    color: $mainColor;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  p {
+    color: #777;
+    .big-word {
+      color: $mainColor;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    line-height: 40px;
+  }
+}
+
+.notifaction-page {
+  margin-bottom: 90px;
+  .notification-page-header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    position: relative;
+  }
+  .notification-cards {
+    margin-top: 40px;
+    .card {
+      position: relative;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      border: 0;
+      background-color: #F5F5F5;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      border-radius: 5px;
+      .notification-name{
+        color: $mainColor;
+        text-decoration: none;
+      }
+      .notification-place{
+        color: #69BE45;
+        text-decoration: none;
+      }
+      i {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: $mainColor;
+        text-align: center;
+        line-height: 55px;
+        color: #fff;
+        position: absolute;
+        right: 20px;
+        top: 60%;
+        transform: translate(0, -60%);
+      }
+      .card-text {
+        margin-right: 90px;
+        margin-top: 15px;
+        line-height: 28px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.commition{
+  margin-top: 40px;
+  .commition-header{
+    font-size: 30px;
+    color: $mainColor;
+  }
+  .commition-calc{
+    font-size: 30px;
+    color: $mainColor;
+    margin-top: 30px;
+  }
+  .calc-par{
+    span{
+      font-weight: bold;
+    }
+    .form-control{
+      width: 10%;
+      display: inline-block;
+    }
+  }
+  .commition-fee{
+    margin-top: 60px;
+    h5{
+      font-size: 30px;
+      color: $mainColor;
+    }
+  }
+  .table{
+    img{
+      width: 60%;
+    }
+  }
+  .transfer, .note{
+    margin-top: 40px;
+  }
+  .transfer{
+    .transfer-head{
+      margin-bottom: 30px;
+    }
+    .form-control{
+      width: 80%;
+      height: 50px;
+    }
+    #textformtextarea{
+      height: 160px !important;
+    }
+    .btn{
+      background-color: $mainColor;
+      width: 40%;
+      color: #fff;
+      margin-top: 20px;
+    }
+  }
+
+}
+
+
+// =========================================
+
+
 
 @media(max-width: 800px){
   .login{
@@ -978,9 +1343,18 @@ footer {
       }
     }
   }
+  .my-ads .card .card-body .controls{
+    position: unset;
+    margin-top: 10px;
+    height: auto;
+  }
+
 }
 
 @media(max-width: 524px){
+  .heloo{
+    margin-right: 20px !important;
+  }
   .cards{
     .first-card, .second-card{
       float: none;
@@ -1031,5 +1405,34 @@ footer {
   }
   .show-add-section .add-header span {
     position: inherit !important;
+  }
+  .notifaction-page{
+    .card{
+      padding-right: 20px;
+      padding-top: 30px !important;
+    }
+    i{
+      position: unset !important;
+      margin-top: 20px;
+      margin-bottom: -20px;
+    }
+    .card-text{
+      margin: 0 !important;
+      margin-top: 0 !important;
+    }
+  }
+  
+  .my-ads .card .card-body .controls .price{
+    top: 20% !important;
+  }
+  .commition{
+    table{
+      img{
+        width: 100% !important;
+      }
+    }
+    .form-control{
+      width: 100% !important;
+    }
   }
 }

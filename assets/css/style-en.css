@@ -43,6 +43,26 @@ body {
   color: #52008C;
 }
 
+.login .heloo {
+  text-align: left;
+  margin-left: 55px;
+}
+.login .heloo i {
+  color: #52008C;
+}
+
+.account-drop-down .btn {
+  border: 2px solid #52008C;
+}
+.account-drop-down .btn i {
+  color: #52008C !important;
+}
+.account-drop-down .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
 .top-header {
   padding: 10px;
 }
@@ -794,6 +814,331 @@ footer .copy .logo-funun img {
   width: 20%;
 }
 
+.my-profile form {
+  margin-top: 0 !important;
+}
+.my-profile h5 {
+  text-align: left;
+  margin-top: 60px;
+  color: #52008C;
+  font-weight: bold;
+}
+
+.my-profile .txt-l-e{
+  text-align: left;
+}
+
+.add-ads-add {
+  margin-bottom: 80px;
+}
+.add-ads-add form {
+  text-align: right;
+  margin-top: 60px;
+}
+.add-ads-add form input,
+.add-ads-add form select,
+.add-ads-add form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+.add-ads-add form input::placeholder,
+.add-ads-add form select::placeholder,
+.add-ads-add form textarea::placeholder {
+  font-size: 13px;
+}
+.add-ads-add form select {
+  background-color: transparent;
+  padding: 5px !important;
+  color: #444;
+  font-size: 14px;
+}
+.add-ads-add form input[type=file] {
+  border: 0;
+  margin-top: 0;
+}
+.add-ads-add form .add-pic {
+  color: #52008C;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.add-ads-add form button[type=submit] {
+  border: 1px solid #52008C;
+  background-color: #52008C;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.add-ads-add .txt-l-en{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.my-ads {
+  text-align: left;
+  margin-bottom: 150px;
+}
+.my-ads .card {
+  border: 0;
+  margin-top: 50px !important;
+}
+.my-ads .card .card-body {
+  background-color: #f7f6fa;
+  height: 100%;
+  padding: 0 !important;
+  position: relative;
+}
+.my-ads .card .card-body h5 {
+  font-size: 18px;
+  color: #44474b;
+  padding: 20px;
+}
+.my-ads .card .card-body span {
+  margin-left: 20px;
+  font-size: 13px;
+  color: #52008C;
+  padding: 20px;
+}
+.my-ads .card .card-body span i {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #52008C;
+}
+.my-ads .card .card-body .controls {
+  background-color: #efebf9;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+  padding-right: 20px;
+}
+.my-ads .card .card-body .controls .button-controls {
+  background-color: #52008C;
+  border: 1px solid #52008C;
+  color: #fff;
+  margin-left: 10px;
+}
+.my-ads .card .card-body .controls .price {
+  position: absolute;
+  right: 3%;
+  top: 0%;
+  line-height: 60px;
+  font-size: 16px;
+  color: #52008C;
+}
+
+.edit-ads {
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.edit-ads form input,
+.edit-ads form select {
+  height: calc(2.5em + 0.75rem + 2px);
+}
+.edit-ads form label {
+  color: #52008C;
+  font-weight: bold;
+}
+.edit-ads form select {
+  font-size: 14px;
+}
+.edit-ads form input {
+  font-size: 14px;
+}
+.edit-ads form .file-upload label {
+  margin-bottom: 0 !important;
+}
+.edit-ads form .img-from-file img {
+  width: 20%;
+}
+.edit-ads form button {
+  color: #fff;
+  background-color: #52008C;
+  border: 1px solid #52008C;
+  padding: 10px;
+}
+
+.my-inbox {
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.my-inbox .card {
+  margin-top: 20px;
+}
+.my-inbox .card .card-header {
+  background-color: #52008C !important;
+  color: #fff;
+  font-size: 18px;
+}
+.my-inbox .card .card-body .card-title,
+.my-inbox .card .card-body .card-text {
+  font-size: 15px;
+}
+.my-inbox .card .card-body .card-title i,
+.my-inbox .card .card-body .card-text i {
+  margin-left: 5px;
+  color: #52008C;
+}
+.my-inbox .card .card-body .btn-danger {
+  font-size: 13px;
+}
+.my-inbox .card .card-body .btn-danger i {
+  margin-left: 5px;
+}
+
+.blacklist {
+  text-align: right;
+  margin-top: 90px;
+  margin-bottom: 180px;
+}
+.blacklist h5 {
+  color: #52008C;
+  font-size: 25px;
+}
+.blacklist p {
+  font-size: 15px;
+}
+.blacklist form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.blacklist form input::placeholder {
+  font-size: 14px;
+}
+.blacklist form button {
+  margin-top: 15px;
+  width: 120px;
+  background-color: #52008C;
+  border: 1px solid #52008C;
+  color: #fff;
+  padding: 10px;
+}
+
+.who-us {
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: left;
+}
+.who-us .who-header {
+  color: #52008C;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.who-us p {
+  color: #777;
+  line-height: 40px;
+}
+.who-us p .big-word {
+  color: #52008C;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.notifaction-page {
+  margin-bottom: 90px;
+}
+.notifaction-page .notification-page-header {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  position: relative;
+}
+.notifaction-page .notification-cards {
+  margin-top: 40px;
+}
+.notifaction-page .notification-cards .card {
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 0;
+  background-color: #F5F5F5;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.notifaction-page .notification-cards .card .notification-name {
+  color: #52008C;
+  text-decoration: none;
+}
+.notifaction-page .notification-cards .card .notification-place {
+  color: #69BE45;
+  text-decoration: none;
+}
+.notifaction-page .notification-cards .card i {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #52008C;
+  text-align: center;
+  line-height: 55px;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 60%;
+  transform: translate(0, -60%);
+}
+.notifaction-page .notification-cards .card .card-text {
+  margin-left: 90px;
+  margin-top: 15px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.commition {
+  margin-top: 40px;
+}
+.commition .commition-header {
+  font-size: 30px;
+  color: #52008C;
+}
+.commition .commition-calc {
+  font-size: 30px;
+  color: #52008C;
+  margin-top: 30px;
+}
+.commition .calc-par span {
+  font-weight: bold;
+}
+.commition .calc-par .form-control {
+  width: 10%;
+  display: inline-block;
+}
+.commition .commition-fee {
+  margin-top: 60px;
+}
+.commition .commition-fee h5 {
+  font-size: 30px;
+  color: #52008C;
+}
+.commition .table img {
+  width: 60%;
+}
+.commition .transfer, .commition .note {
+  margin-top: 40px;
+}
+.commition .transfer .transfer-head {
+  margin-bottom: 30px;
+}
+.commition .transfer .form-control {
+  width: 80%;
+  height: 50px;
+}
+.commition .transfer #textformtextarea {
+  height: 160px !important;
+}
+.commition .transfer .btn {
+  background-color: #52008C;
+  width: 40%;
+  color: #fff;
+  margin-top: 20px;
+}
+
 @media (max-width: 800px) {
   .login {
     text-align: left;
@@ -832,8 +1177,17 @@ footer .copy .logo-funun img {
   .show-add-section .connection-data .connectiion-data-header {
     float: none !important;
   }
+
+  .my-ads .card .card-body .controls {
+    position: unset;
+    margin-top: 10px;
+    height: auto;
+  }
 }
 @media (max-width: 524px) {
+  .heloo{
+    margin-left: 20px !important;
+  }
   .cards .first-card, .cards .second-card {
     float: none;
     margin: auto;
@@ -882,5 +1236,28 @@ footer .copy .logo-funun img {
 
   .show-add-section .add-header span {
     position: inherit !important;
+  }
+
+  .notifaction-page .card {
+    padding-right: 20px;
+    padding-top: 30px !important;
+  }
+  .notifaction-page i {
+    position: unset !important;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+  .notifaction-page .card-text {
+    margin: 0 !important;
+    margin-top: 0 !important;
+  }
+  .my-ads .card .card-body .controls .price{
+    top: 20% !important;
+  }
+  .commition table img {
+    width: 100% !important;
+  }
+  .commition .form-control {
+    width: 100% !important;
   }
 }
